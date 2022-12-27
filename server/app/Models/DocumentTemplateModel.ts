@@ -10,7 +10,7 @@ class DocumentTemplateModel extends BaseModel {
 	content: Array<string>;
 	locale: string;
 	createdBy: number;
-  updatedBy: number;
+    updatedBy: number;
 	// createdAt: Date;
 	// updatedAt: Date;
 }

@@ -1,12 +1,13 @@
 import BaseModel from './BaseModel'
 
 class DocumentModel extends BaseModel {
-  static tableName = "documents"
+  static tableName = "documents_DemoData"
 
   //fields
   id: number;
   formId: string;
   formName: string;
+  data: Array<string>;
   issuedBy: string;
   issuedDate: Date;
   submitter: string;
