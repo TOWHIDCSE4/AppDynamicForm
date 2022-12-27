@@ -1,4 +1,4 @@
-import BaseModel from './BaseModel'
+import BaseModel from "./BaseModel";
 
 class DocumentTemplateModel extends BaseModel {
 	static tableName = "document_templates";
@@ -10,8 +10,8 @@ class DocumentTemplateModel extends BaseModel {
 	content: Array<string>;
 	locale: string;
 	createdBy: number;
-    updatedBy: number;
+	updatedBy: number;
 	// createdAt: Date;
 	// updatedAt: Date;
 }
-export default DocumentTemplateModel
+export default DocumentTemplateModel;
