@@ -1,7 +1,7 @@
 import BaseModel from './BaseModel'
 
 class DocumentModel extends BaseModel {
-  static tableName = "documents_DemoData"
+  static tableName = "documents"
 
   //fields
   id: number;
