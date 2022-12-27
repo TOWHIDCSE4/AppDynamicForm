@@ -1,0 +1,111 @@
+[
+  {
+    "fieldName": "firstName",
+    "dataType": "string",
+    "inputType": "textInput",
+    "label": "First Name",
+    "position": 1,
+    "groupTitle": "Personal Details",
+    "defaultValue": "",
+    "list": {
+      "sourceType": "database / manual",
+      "listSource": "asdasd, asdasd, asdasd",
+      "listSources": "UserTable"
+    },
+    "col": {
+      "xs": 2,
+      "lg": 3
+    },
+    "validation": []
+  },
+  {
+    "fieldName": "lastName",
+    "dataType": "string",
+    "inputType": "textInput",
+    "label": "Last Name",
+    "position": 2,
+    "groupTitle": "Personal Details",
+    "defaultValue": "",
+    "list": {},
+    "col": {
+      "xs": 2,
+      "lg": 3
+    },
+    "validation": []
+  },
+  {
+    "fieldName": "phone",
+    "dataType": "string",
+    "inputType": "textInput",
+    "label": "Phone",
+    "position": 4,
+    "groupTitle": "Personal Details",
+    "defaultValue": "",
+    "list": {},
+    "col": {
+      "xs": 2,
+      "lg": 3
+    },
+    "validation": []
+  },
+  {
+    "fieldName": "birthday",
+    "dataType": "date",
+    "inputType": "dateTimeInput",
+    "label": "Email",
+    "position": 5,
+    "groupTitle": "Personal Details",
+    "defaultValue": "",
+    "list": {},
+    "col": {
+      "xs": 2,
+      "lg": 3
+    },
+    "validation": []
+  },
+  {
+    "fieldName": "avatar",
+    "dataType": "file",
+    "inputType": "fileInput",
+    "label": "Avatar",
+    "position": 3,
+    "groupTitle": "Personal Details",
+    "defaultValue": "",
+    "list": {},
+    "col": {
+      "xs": 2,
+      "lg": 3
+    },
+    "validation": []
+  },
+  {
+    "fieldName": "street",
+    "dataType": "string",
+    "inputType": "selectInput",
+    "label": "Street",
+    "position": 6,
+    "groupTitle": "Address",
+    "defaultValue": "",
+    "list": {},
+    "col": {
+      "xs": 2,
+      "lg": 3
+    },
+    "validation": []
+  },
+  {
+    "fieldName": "district",
+    "dataType": "string",
+    "inputType": "selectInput",
+    "label": "District",
+    "position": 7,
+    "groupTitle": "Address",
+    "defaultValue": "",
+    "list": {},
+    "col": {
+      "xs": 2,
+      "lg": 3
+    },
+    "validation": []
+  }
+]
